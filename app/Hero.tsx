@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Body from "./Body";
 
 const Hero: React.FC = () => {
-  const [selectedButton, setSelectedButton] = useState<string>("Drinks"); // Default selected button
+  const [selectedButton, setSelectedButton] = useState<string>("Drinks"); // Default selected buttonss
 
   const buttonClasses = (buttonName: string) =>
     selectedButton === buttonName
