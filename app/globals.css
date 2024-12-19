@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('/oswald.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
